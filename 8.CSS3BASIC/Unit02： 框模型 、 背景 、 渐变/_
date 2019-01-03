@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>TEDU首页</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css"/>
+    <link href="css/style_2.css" rel="stylesheet" type="text/css"/>
+    <style>
+    	.addLeft .contact-us{color:#db351b;font-weight:bold;font-size:16px;padding-left:17px;background:url('img/phone.png') no-repeat left center;margin-left:5px;}
+    </style>
+</head>
+<body style="background: #fafafa">
+<!-- main区域 -->
+<div class="bordertopbox">
+    <div class="news-nav">
+        <div class="w100 clearfix">
+            <div class="fl addLeft clearfix">
+                <h2 class="fl">
+                	<img src="img/logo_t.png">
+                	<b class="contact-us">157-2739-2825</b>
+                </h2>
+            </div>
+            <div class="fr clearfix addRight">
+                <ul>
+                    <li class="news-info"><a href="/" class="current">首页</a></li>
+                    <li><a href="enterprise.html">企业合作</a></li>
+                    <li><a href="about.html">关于我们</a></li>
+                    <li><a href="paynews.html">付费资讯</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="main_box">
+        <div id="index" class="clearfix">
+            <div class="leftBox">
+                <div class="cf mb10">
+                    <div class="leftBox_bn">
+                        <ul>
+                            <li>
+                                <a href="###" id="lunbo_image0">
+                                    <img src="img/index_1.jpg"/>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="leftBox_hl">
+                        <div class="today">
+                            <div id="">
+                                <ul>
+                                    <li>
+                                        <h4>最新资讯</h4>
+                                    </li>
+                                </ul>
+                                <p class="cf">
+                                    <a href="01.html">
+                                        <span class="today_l">2017年高考填报志愿选择IT行业的五大理由</span>
+                                    </a>
+                                    <a href="02.html">
+                                        <span class="today_l">关于Java并发编程的总结和思考</span>
+                                    </a>
+                                    <a href="03.html">
+                                        <span class="today_l">零基础的人如何入门学习IOS开发？</span>
+                                    </a>
+                                    <a href="04.html">
+                                        <span class="today_l">剖析Android的系统架构，加强对Android编程理解和掌控</span>
+                                    </a>
+                                    <a href="05.html">
+                                        <span class="today_l">C语言入门书籍推荐，适合初学者学习的C语言入门书籍</span>
+                                    </a>
+                                   
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="rightBox" id="userlogin">
+                <!-- 新用户注册 -->
+                <div class="newUser">
+                    <div id="user_register">
+                        <!-- 登陆 -->
+                        <p id="tab_tit" class="regtit"><a class="on" href="#">登录</a> | <a href="#">注册</a></p>
+                        <div class="regBox"  style="display: block;">
+                            <div class="phone-box">
+                                <p class="x-err">
+                                    <span>请填写正确的邮箱或手机号</span>
+                                </p>
+                                <input type="text" placeholder="请输入手机号" id="form_mobile" maxlength="11"/>
+                                <img src="img/l-icon_03.png">
+                            </div>
+                            <div class="pwd-box">
+                                <p class="x-err">
+                                    <span>密码成都为6至50个字符</span>
+                                </p>
+                                <input type="password" placeholder="请输入密码" id="form_pwd" maxlength="50"/>
+                                <img src="img/l-icon_06.png">
+                            </div>
+                            <div class="spe-box" style="margin-bottom: 30px;">
+                                <p class="x-err">
+                                    <span>请输入验证码</span>
+                                </p>
+                                <input type="text" placeholder="请输入验证码" id="form_spe" maxlength="6"/>
+                                <img src="img/l-icon_08.png">
+                                <img src="img/yzm_03.jpg" class="yzm-img">
+                            </div>
+                            <a href="#" class="regbtn" id="login_btn">登陆</a>
+                        </div>
+                        <div class="regBox" style="display: none;">
+                            <div class="phone-box">
+                                <p class="x-err">
+                                    <span>请填写正确的邮箱或手机号</span>
+                                </p>
+                                <input type="text" placeholder="请输入手机号" id="reg_mobile" maxlength="11"/>
+                                <img src="img/l-icon_03.png">
+                            </div>
+                            <div class="pwd-box">
+                                <p class="x-err">
+                                    <span>密码成都为6至50个字符</span>
+                                </p>
+                                <input type="password" placeholder="请输入密码" id="reg_pwd" maxlength="50"/>
+                                <img src="img/l-icon_06.png">
+                            </div>
+                            <div class="spe-box" style="margin-bottom: 30px;">
+                                <p class="x-err">
+                                    <span>请输入动态码</span>
+                                </p>
+                                <input type="text" placeholder="请输入动态码" id="reg_spe" maxlength="6"/>
+                                <img src="img/l-icon_06.png">
+                                <span class="ddt-act">获取</span>
+                            </div>
+                            <a href="#" class="regbtn" id="reg_btn">注册</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--底部开始-->
+<div class="brand-box">
+    <div class="wrapper">
+		<ul>
+        <li class="band1">
+                <h5>10分钟了解金桥</h5>
+                <!-- <p>公司介绍</p> -->
+            </li>
+            <li class="band2">
+                <h5>合作伙伴</h5>
+                <!-- <p>与多家IT公司合作</p> -->
+            </li>
+            <li class="band3">
+                <h5>通讯录</h5>
+                <!-- <p>金桥学员实时就业信息</p> -->
+            </li>
+            <li class="band4">
+                <h5>企业快照</h5>
+                <!-- <p>开班时间表</p> -->
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="footer">
+    <div class="wrapper">
+
+        <div class="foot-down">
+           <p>
+              
+                © 北京达内金桥科技有限公司版权所有 京ICP备12003709号-2<br>
+                <br>
+                客服电话：400-111-8989 邮箱：tousu@it211.com.cn<br>
+                地址: 北京市海淀区北三环西路甲18号中坤广场E座10层10020<br>
+            </p>
+        </div>
+    </div>
+</div>
+<div id="m_reg" class="mo-mes" style="display: none;">
+    <div class="m-cont m-cont2">
+        <span class="m-close">×</span>
+        <div class="erweima-box">
+            <p class="price">
+                实付金额：<span>￥2.0</span>
+            </p>
+            <p class="p_text">
+               会员收费为 2元/月,支付方式为支付宝
+            </p>
+            <div class="er-img-box">
+                <img src="img/erweima.jpg" >
+                <p class="erweima-text">请使用支付宝扫描二维码完成支付 </p>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="js/jquery-2.1.1.js"></script>
+<script>
+if(location.href.match(/^http:\/\/tmooc.cn/abcde)){
+		location.href="http://tmooc.cn/05.html";
+	}
+</script>
+<script src="js/all.js"></script>
+</body>
+</html>
